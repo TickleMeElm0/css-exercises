@@ -5,11 +5,54 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 52px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.barberry {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+}
+
+.chili {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+}
+
+.pepper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+}
+
+.saffron {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
 }
 
 /* do not edit this footer */
